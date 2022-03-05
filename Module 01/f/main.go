@@ -7,6 +7,7 @@ func main() {
 	var jumlah int = 0
 	var n int = 0
 	var rata2 float64
+
 	fmt.Scan(&nilai)
 
 	for nilai != -1 {

@@ -4,6 +4,7 @@ import "fmt"
 
 func main() {
 	var a, b, c, d, e, f, x int
+
 	fmt.Scan(&a, &b, &c)
 	fmt.Scan(&d, &e, &f)
 	fmt.Scan(&x)
