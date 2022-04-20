@@ -1,0 +1,46 @@
+Untuk mengetahui keberadaan mahkluk astral, sebuah alat digunakan untuk mengukur energi positif dan negatif yang terpancar di tempat-tempat tertentu.
+
+Masukan terdiri dari dari beberapa baris. Baris pertama adalah banyaknya tempat yang akan diobservasi, sedangkan baris-baris selanjutnya berisi dua besaran energi (positif dan negatif) yang terpacarkan pada setiap tempat tersebut.
+
+Keluaran terdiri dari dua bilangan yang menyatakan besarnya total energi negatif dan positif dari keseluruhan tempat yang diobservasi.
+
+Asumsi masukan harus diberi simbol + atau – sebagai penanda positif dan negatif.
+
+Contoh:
+No  Masukan     Keluaran 
+1   5           Negative: -25
+    -10 +10     Positive: 45
+    +5 -3
+    +15 -5
+    -2 +10
+    -5 +5        
+2   9           Negative: -345
+    -3 +15      Positive: 251
+    -77 +73
+    -50 +11
+    +14 -4
+    -24 +23
+    -61 +26
+    -86 +2
+    +79 -12
+    +8 -28
+3   2           Negative: -62
+    +44 -55     Positive: 108
+    -7 +64
+4   11
+    -44 +6      Negative: -338
+    +15 -27     Positive: 207
+    -42 +37
+    +19 -26
+    -33 +14
+    +27 -26
+    -19 +9
+    +16 -6
+    +1 -50
+    +31 -42
+    -23 +32
+5   4           Negative: -76
+    +39 -34     Positive: 131
+    +45 -17
+    -7 +7
+    -18 +40

@@ -1,0 +1,64 @@
+Sebuah museum memiliki kapasitas pengunjung 100 orang. Seorang petugas museum ditugaskan untuk mencatat jumlah pengunjung di setiap harinya. Kemudian petugas harus melaporkan rata-rata jumlah pengunjung.
+
+Masukan terdiri dari beberapa baris yang menyatakan jumlah pengunjung disetiap harinya. Apabila angka yang dimasukkan tidak valid (negatif atau melebihi kapasitas museum) maka perbaiki jumlah pengunjung di hari tersebut. Masukan akan berhenti apabila telah terjadi penurunan pengunjung sebanyak 3x berturut-turut.
+
+Keluaran berupa lama(hari) museum buka, dan rata-rata pengunjungnya setiap harinya (2 digit belakang koma).
+
+Contoh Masukan dan Keluaran (tulisan bergaris bawah menyatakan masukan, sisanya keluaran):
+No      Masukan dan Keluaran                Penjelasan
+1       Hari 1 : -22                        Penurunan terjadi pada hari ke-2
+        Hari 1 : 107                        Penurunan terjadi pada hari ke-3
+        Hari 1 : 105                        Penurunan terjadi pada hari ke-4
+        Hari 1 : 120                        
+        Hari 1 : 98                         98 + 80 + 79 + 15 = 272
+        Hari 2 : 80                         Rata-rata = 272 / 4 = 68 orang
+        Hari 3 : 79
+        Hari 4 : 15
+        Museum buka selama 4 hari
+        Rata-rata pengunjung 68.00 orang
+2       Hari 1 : 6                          Penurunan terjadi pada hari ke-5
+        Hari 2 : 21                         Penurunan terjadi pada hari ke-6
+        Hari 3 : 39                         Penurunan terjadi pada hari ke-7
+        Hari 4 : 45
+        Hari 5 : 19
+        Hari 6 : 18
+        Hari 7 : 1
+        Museum buka selama 7 hari
+        Rata-rata pengunjung 21.29 orang
+3       Hari 1 : 70                         70 + 85 + 100 + 75 + 98 + 89 + 93 + 95 + 62 + 24 + 18 = 809
+        Hari 2 : 85                         Rata-rata = 809/11 = 73.55 orang.
+        Hari 3 : 101                        
+        Hari 3 : -100                       Penurunan terjadi pada hari ke-4
+        Hari 3 : -10                        Penurunan terjadi pada hari ke-6
+        Hari 3 : 1000                       Penurunan terjadi pada hari ke-9
+        Hari 3 : 100                        Penurunan terjadi pada hari ke-10
+        Hari 4 : 75                         Penurunan terjadi pada hari ke-11
+        Hari 5 : 98
+        Hari 6 : 89
+        Hari 7 : 93
+        Hari 8 : 95
+        Hari 9 : 62
+        Hari 10 : 24
+        Hari 11 : 18
+        Museum buka selama 11 hari
+        Rata-rata pengunjung 73.55 orang
+4       Hari 1 : 100                        Penurunan terjadi pada hari ke-2
+        Hari 2 : 50                         Penurunan terjadi pada hari ke-3
+        Hari 3 : 10                         Penurunan terjadi pada hari ke-4
+        Hari 4 : 5
+        Museum buka selama 4 hari
+        Rata-rata pengunjung 41.25 orang
+5       Hari 1 : 137                        Penurunan terjadi pada hari ke-3
+        Hari 1 : 32                         Penurunan terjadi pada hari ke-4
+        Hari 2 : -26                        Penurunan terjadi pada hari ke-5
+        Hari 2 : -27
+        Hari 2 : 41
+        Hari 3 : 173
+        Hari 3 : 114
+        Hari 3 : 178
+        Hari 3 : 160
+        Hari 3 : 23
+        Hari 4 : 21
+        Hari 5 : 20
+        Museum buka selama 5 hari
+        Rata-rata pengunjung 27.40 orang

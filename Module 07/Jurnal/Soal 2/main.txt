@@ -1,0 +1,48 @@
+Mulai tahun 2022 ini, pengurusan visa di Indonesia untuk negara-negara Asia hanya membutuhkan waktu 2 hari kerja saja. Pengajuan ini dapat dilakukan melalui aplikasi myVisa86 yang bisa diunduh di Golang Store. Buatlah program untuk mensimulasikan waktu pengambilan visa tersebut dengan melengkapi potongan program yang telah disediakan, ikuti setiap instruksi atau komentar yang terdapat pada spesifikasi dari subprogram.
+
+Masukan adalah hari, tanggal, bulan, dan tahun pengajuan visa, di mana tanggal dan tahun dinyatakan dalam bilangan bulat sedangkan bulan dan hari dinyatakan dalam teks huruf kecil semua.
+
+Keluaran adalah hari, tanggal, bulan, dan tahun pengambilan visa.
+
+Catatan: Ketentuannya adalah lama pembuatan visa adalah 2 hari kerja dengan hari kerja adalah senin hingga jumat saja. Hati-hati dalam pergantian bulan, tahun, kabisat, hari kamis atau jumat. Asumsi hari, tanggal, bulan, dan tahun adalah valid, jadi tidak perlu sesuai dengan kondisi yang sebenarnya di kalender.
+
+Contoh:
+No      Masukan                     Keluaran                Penjelasan
+1       rabu 2 maret 2021           jumat 4 maret 2021
+2       jumat 4 maret 2021          selasa 8 maret 2021     2 hari kerja dari jumat adalah selasa karena sabtu dan minggu tidak dihitung
+3       kamis 31 maret 2021         senin 4 april 2021      2 hari kerja dari kamis adalah senin karena sabtu dan minggu tidak dihitung
+4       senin 28 februari 2020      rabu 1 maret 2020       februari 2020 (kabisat) berjumlah 29 hari
+5       senin 28 februari 2022      rabu 2 maret 2022       februari 2022 berjumlah 28 hari
+6       kamis 29 desember 2022      senin 2 januari 2023    ganti bulan dan tahun
+
+package main
+import "fmt"
+
+func main(){
+    // deklarasi variabel dan pembacaan masukan
+    // panggil subprogram untuk penentuan tanggal pengambilan
+    // tampilkan tanggal pengambilan visa
+}
+
+func kabisat(tahun int) bool
+// Mengembalikan true apabila tahun adalah kabisat, false apabila sebaliknya.
+
+func angkaBulan(bulan string) int
+/* Mengembalikan angka berdasarkan urutan nama bulan pada kalender masehi (1 hingga 12).
+0 untuk bulan yang tidak valid. Asumsi nama bulan ditulis dengan huruf kecil semua. Contoh: "januari" menjadi 1 */
+
+func bulanAngka(angka int) string
+/* Mengembalikan nama bulan berdasarkan urutan angka bulan pada kalender masehi (1 hingga 12).
+    "invalid" untuk bulan yang tidak valid. Asumsi nama bulan ditulis dengan huruf kecil semua. Contoh: 1 menjadi "januari" */
+
+func jumlahHari(bulan, tahun int) int
+/* Mengembalikan jumlah hari berdasarkan bulan dan tahun yang terdefinisi,
+hati-hati pada bulan februari pada saat kabisat. -1 apabila bulan tidak valid */
+
+func mencariDurasi(hari1 string, hari2 *string, durasi *int)
+/* I.S. terdefinisi hari1 yang menyatakan hari pengajuan string, asumsi huruf kecil semua
+    F.S. hari2 berisi hari pengambilan dan durasi berisi lama pembuatan visa, karena sabtu dan minggu tidak dihitung */
+
+func pengambilan(tanggal1, bulan1, tahun1 int, hari1 string, tanggal2, bulan2, tahun2 *int, hari2 *string)
+/* I.S. terdefinisi waktu pengajuan visa, yaitu tanggal1, bulan1, tahun1 dan hari1
+    F.S. tanggal2, bulan2, tahun2 dan hari2 berisi waktu pengambilan visa */

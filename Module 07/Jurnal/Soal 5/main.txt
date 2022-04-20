@@ -1,0 +1,56 @@
+Keberhasilan Alice dan Bob dalam kompetisi pemrograman bahasa Go, membuat teman-teman mereka merasa tertarik mengikuti kompetisi yang sama. Kali ini kompetisi juga lebih menantang karena jumlah soal yang harus diselesaikan lebih dari satu. Penilaian masing-masing solusi program masih sama, setiap program dinilai berdasarkan tiga faktor: struktur program, efisiensi, dan kelengkapan solusi. Nilai setiap faktor adalah antara 1 s.d. 100. Buat program untuk mencari rata-rata nilai tertinggi dan terendah dari setiap peserta.
+
+Masukan terdiri dari beberapa baris. Setiap barisnya berisi string nama peserta, integer p yaitu banyaknya solusi yang dibuat, dan diikuti dengan 3p bilangan real nilai dari setiap faktor untuk semua solusi. Masukan berakhir apabila nama adalah "STOP" dan nilai p setiap peserta bisa berbeda.
+
+Keluaran terdiri dari dua baris, yang masing-masingnya merupakan nama dan rata-rata tertinggi (baris pertama) dan terendah (baris kedua). Tampilkan rata-rata 2 digit dibelakang koma.
+
+Contoh:
+No      Masukan                                                     Keluaran
+1       Elsa 3 99.9 61.9 20.1 40.4 48.2 80.7 61.4 2.7 32.0          Maul 56.87
+        Anna 1 70.5 70.4 17.1                                       Eunice 31.40
+        Eunice 2 43.1 12.0 36.9 44.1 10.4 41.9
+        Maul 2 50.6 93.8 31.5 42.9 49.9 72.5
+        STOP
+2       Bardot 2 21.8 55.9 38.6 1.6 34.1 69.7                       James 52.93
+        Sultan 2 63.3 69.0 20.3 69.8 27.4 0.3                       Bardot 36.95
+        James 1 16.6 75.9 66.3
+        Hansley 3 56.6 19.8 73.4 87.9 32.9 0.6 64.7 7.1 23.5
+        STOP
+3       Madison 3 23.2 20.3 93.7 86.1 9.6 48.9 85.4 74.0 96.2       Gonzales 75.07
+        Marley 2 12.9 38.0 6.4 7.7 59.2 10.6                        Marley 22.47
+        Ellis 2 72.1 76.2 66.5 4.3 59.8 19.0
+        Hope 2 36.8 10.5 44.6 94.3 50.2 81.7
+        Cassidy 2 58.6 36.5 83.0 72.1 0.2 91.0
+        Lopez 3 37.5 64.9 90.8 71.5 91.9 85.1 16.4 76.0 56.5
+        Jenkins 2 98.1 66.8 82.3 21.9 45.1 0.4
+        Poverly 2 37.0 90.8 15.7 81.9 47.1 48.3
+        McKenna 1 66.2 11.0 47.8
+        Gonzales 1 58.9 90.3 76.0
+        STOP
+4       Elsa 2 80.0 37.0 31.6 59.3 65.1 82.4                        Elsa 59.23
+        Anna 1 3.4 78.1 0.7                                         Anna 27.40
+        Eunice 2 85.2 32.8 72.7 13.6 84.9 53.7
+        Maul 3 18.3 61.4 75.6 49.4 32.6 29.7 34.7 8.2 36.1
+        Rayan 2 44.0 82.9 15.7 23.0 74.4 48.7
+        STOP
+5       Elsa 3 11.8 74.6 84.2 63.5 1.8 40.8 7.9 50.5 50.8           Marley 63.38
+        Anna 2 4.7 32.3 25.1 95.1 25.8 44.8                         Eunice 32.81
+        Eunice 3 1.2 20.5 84.2 11.4 24.8 3.7 21.8 58.1 69.6
+        Maul 2 95.4 24.0 45.6 78.9 66.1 68.9
+        Rayan 2 49.2 41.1 58.0 44.0 11.8 50.9
+        Bardot 2 9.0 45.1 42.7 89.2 50.1 82.9
+        Sultan 2 86.9 17.8 46.3 49.2 92.8 3.0
+        James 1 93.3 39.5 30.0
+        Hansley 2 65.0 63.1 76.2 59.1 8.3 94.1
+        Cromwell 2 97.7 25.7 31.9 56.2 62.9 35.4
+        Ashley 1 45.5 86.4 22.3
+        Monroe 2 6.4 84.0 59.2 6.4 70.1 22.4
+        West 3 60.0 83.1 88.7 21.3 81.4 38.2 66.5 31.6 51.1
+        Langley 1 17.1 77.1 52.4
+        Daughtler 1 56.9 55.2 62.9
+        Madison 1 75.6 13.3 41.3
+        Marley 2 65.3 48.6 66.9 53.3 56.8 89.4
+        Ellis 1 42.1 94.7 48.4
+        Hope 2 47.3 83.0 54.5 97.6 4.8 26.8
+        Cassidy 1 37.8 56.7 52.0
+        STOP

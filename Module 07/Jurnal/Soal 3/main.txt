@@ -1,0 +1,24 @@
+Buatlah sebuah program yang digunakan untuk mengkonversi bilangan basis 2 (biner) ke basis 10 (desimal) dengan menggunakan subprogram berikut ini.
+
+func pangkat(a,b int) int {
+/* Mengembalikan nilai a dipangkatkan b (0 <= a,b <= 10), gunakan operasi perkalian di dalam perulangan, misalnya 2 pangkat 4 artinya 2 x 2 x 2 x 2 */
+
+func konversi(biner int, desimal *int) {
+/* I.S. terdefinisi bilangan bulat yang merepresentasikan bilangan biner
+    F.S. desimal berisi hasil konversi dari bilangan biner */
+
+Panggil kedua subprogram tersebut pada program utama, sehingga bisa digunakan untuk konversi. Sebagai contoh misalnya konversi 100 0111 maka prosesnya 1x26+0x25+0x24+0x23+1x22+1x21+1x20 = 0 + 64 + 0 + 0 + 0 + 4 + 2 + 1 = 71
+
+Masukan terdiri sebuah bilangan asli 𝑥 (0≤𝑥≤ 1010) yang nilai setiap digitnya tersusun dari 0 dan 1 untuk merepresentasikan suatu bilangan biner. Selain 𝑥 = 0 maka digit pertama atau paling kiri bernilai 1.
+
+Keluaran terdiri dari sebuah bilangan bulat 𝑦 yang menyatakan nilai desimal dari bilangan biner 𝑥 yang diberikan.
+
+Contoh:
+
+No      Masukan     Keluaran
+1       0           0
+2       111         7
+3       1010        10
+4       10          2
+5       1101        13
+6       1000111     71
