@@ -15,4 +15,5 @@ No  Masukan     Keluaran
 2   9           Fizz
 3   314000      Bazz
 4   30          Fizz
-5   8           Bazz
+                Bazz
+5   8           
